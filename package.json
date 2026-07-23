@@ -1,0 +1,43 @@
+{
+  "name": "digital-detox-timer",
+  "version": "1.0.0",
+  "description": "A neuroscience-backed focus timer and screen break reminder for developers. Built on research showing that strategic breaks improve cognitive performance by up to 40%.",
+  "main": "src/index.js",
+  "bin": {
+    "detox-timer": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node tests/test.js",
+    "lint": "eslint src/"
+  },
+  "keywords": [
+    "pomodoro",
+    "focus",
+    "timer",
+    "productivity",
+    "screen-time",
+    "digital-detox",
+    "break-reminder",
+    "developer-tools",
+    "neuroscience",
+    "wellness",
+    "cli",
+    "health"
+  ],
+  "author": "Trevor Taylor <press@trevortaylor.ai> (https://trevortaylor.ai)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/havijavi/digital-detox-timer"
+  },
+  "homepage": "https://trevortaylor.ai",
+  "bugs": {
+    "url": "https://github.com/havijavi/digital-detox-timer/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
